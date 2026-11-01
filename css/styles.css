@@ -1,0 +1,106 @@
+/* Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #222222;
+    background-color: #fdf6ec;
+}
+
+header {
+    background-color: #8a2c0f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #ffd27f;
+}
+
+/* Table */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th,
+td {
+    border: 1px solid #8a2c0f;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+thead th {
+    background-color: #8a2c0f;
+    color: #ffffff;
+}
+
+tbody th {
+    background-color: #fbe3d3;
+}
+
+/* Photos */
+img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    th,
+    td {
+        padding: 6px;
+        font-size: 0.9em;
+    }
+
+    img {
+        max-width: 140px;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    th,
+    td {
+        font-size: 0.85em;
+    }
+
+    img {
+        max-width: 100px;
+    }
+}
